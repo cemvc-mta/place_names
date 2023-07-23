@@ -1,0 +1,7 @@
+{
+    "liquid.engine": "jekyll",
+    "liquid.format.markup": {},
+    "files.associations": {
+        "*.html": "liquid"
+    }
+}
