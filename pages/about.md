@@ -1,7 +1,7 @@
 ---
 title: About
 layout: about
-permalink: /about.html
+permalink: /about
 # include CollectionBuilder info at bottom
 credits: false
 # Edit the markdown on in this file to describe your collection
@@ -20,5 +20,5 @@ This site is a catalogue of place names and their history. The content is based 
 
 The Centre for Early Modern Visual Culture offers research collections focused primarily on illustrations, engravings, and maps published in books between 1400 and 1900. Our researchers examine critical questions about visuality from this period, questions that continue to impact how we see the world around us today. These inquiries revolve around gender, race, class, place of origin, and how images become powerfully technologized in the present era. Scholars of the digital humanities, history, art history, and literature will find these collections particularly useful for their research. 
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it. % include cb/about_the_about.md %   -->
+
