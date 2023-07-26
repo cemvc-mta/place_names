@@ -1,7 +1,7 @@
 ---
 title: Data
 layout: data
-permalink: /data.html
+permalink: /data
 # see _data/config-table.csv for table display options
 # a table visualization will be added below the content in this file
 ---
