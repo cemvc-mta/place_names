@@ -1,5 +1,4 @@
 field,display_name,search
-date,Date,true
-creator,Creator,true
-subject,Subjects,true
-location,Location,true
+location,Province or Territory,true
+haspolicy,Place Name Policy,true
+contactinfo,Contact Information

@@ -18,7 +18,7 @@ var items = [
 /* function to create cards for each item */ 
 function makeCard(obj) {
     // find item link
-    var itemHref = "{{ '/item.html' | relative_url | append: '?id=' }}" + obj.link;
+    var itemHref = "{{ '/item' | relative_url | append: '?id=' }}" + obj.link;
     // find images
     var imgSrc, thumbSrc;
     // add images or thumb for objects based on format
@@ -62,7 +62,7 @@ function makeCard(obj) {
     var btns = obj[{{ f.field | jsonify }}].split(";");
     for (var i = 0, len = btns.length; i < len; i++) {
       if(btns[i] != "") {
-        card += '<a class="btn btn-sm btn-secondary m-1 text-wrap" href="{{ '/browse.html' | relative_url }}#' + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
+        card += '<a class="btn btn-sm btn-secondary m-1 text-wrap" href="{{ '/browse' | relative_url }}#' + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
       }
     }
     {% else %}
@@ -74,7 +74,7 @@ function makeCard(obj) {
     card += '</p>';
     // media type
     if(obj.format != "") {
-        card += '<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="{{ '/browse.html' | relative_url }}#' + encodeURIComponent(obj.format) + '">' + 
+        card += '<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="{{ '/browse' | relative_url }}#' + encodeURIComponent(obj.format) + '">' + 
         obj.format.split("/").pop().replace("_", " ").toUpperCase() + ' <svg class="bi icon-sprite"><use xlink:href="{{ "/assets/lib/cb-icons.svg" | relative_url }}#';
         if(obj.format.includes('image')){
             card += 'icon-image';

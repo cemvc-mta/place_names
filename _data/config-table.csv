@@ -1,5 +1,5 @@
 field,display_name
-title,Title
-date,Date
-description,Description
-subject,Subjects
+title,Settlement Name
+location,Province or Territory
+haspolicy,Place Name Policy
+contactinfo,Contact Information

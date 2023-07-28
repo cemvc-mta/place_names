@@ -41,7 +41,7 @@
             itemFormat = record.format.replace("_", " ").toUpperCase();
         }
         document.getElementById("item-format").innerHTML = itemFormat
-        document.getElementById("item-title").innerHTML = record.format.includes('record') ? objectTitle : objectTitle + '<a href="#item-metadata" class="ms-5 btn btn-sm btn-outline-dark small">Item Info {% include feature/icon.html icon="arrow-down" label="Down arrow" %}</a>';
+        document.getElementById("item-title").innerHTML = record.format.includes('record') ? objectTitle : objectTitle + '<a href="#item-metadata" class="ms-5 btn btn-sm btn-outline-dark small">Item Info {% include feature/icon icon="arrow-down" label="Down arrow" %}</a>';
         /* add object */ 
         var format = "" + record.format;
         var objectLink = record.filename;
@@ -89,7 +89,7 @@
                 var browseLinks = "";
                 for (var i = 0, len = topics.length; i < len; i++) {
                     if (topics[i] != "") {
-                        browseLinks += '<a class="btn btn-link" href="{{ '/browse.html' | relative_url }}#' + encodeURIComponent(topics[i].trim()) + '">' + topics[i].trim() + '</a> ';
+                        browseLinks += '<a class="btn btn-link" href="{{ '/browse' | relative_url }}#' + encodeURIComponent(topics[i].trim()) + '">' + topics[i].trim() + '</a> ';
                     }
                 }
                 fields += '<dt class="field">{{ f.display_name }}:</dt> <dd class="field-value">' + browseLinks + '</dd>';
@@ -115,7 +115,7 @@
                 } else {
                     itemYear = item.date;
                 }
-                var timelineButton = '<a href="{{ "/timeline.html" | relative_url }}#y' + itemYear + '" class="btn btn-outline-primary">View on Timeline</a>';
+                var timelineButton = '<a href="{{ "/timeline" | relative_url }}#y' + itemYear + '" class="btn btn-outline-primary">View on Timeline</a>';
                 /* add timeline link to children only if specified in theme.yml */
                 {% if site.data.theme.timeline-child-objects == true %}
                     itemLink += timelineButton;
@@ -127,7 +127,7 @@
             {% if stubs contains "map" %}
             /* add link to view on map */
             var itemMarker = item.id ? item.id : queryString;
-            var mapButton = '<a href="{{ '/map.html' | relative_url }}?location=' + item.latitude + ',' + item.longitude + '&marker=' + itemMarker +'" class="btn btn-outline-primary">View on Map</a>';
+            var mapButton = '<a href="{{ '/map' | relative_url }}?location=' + item.latitude + ',' + item.longitude + '&marker=' + itemMarker +'" class="btn btn-outline-primary">View on Map</a>';
             if (item.latitude && item.longitude) {
                 /* add map link to children only if specified in theme.yml */
                 {% if site.data.theme.map-child-objects == true %}
@@ -405,8 +405,8 @@
         } else {
             forward = itemKeys[current + 1];
         }
-        var backUrl = "{{ '/item.html?id=' | relative_url }}" + back;
-        var forwardUrl = "{{ '/item.html?id=' | relative_url }}" + forward;
+        var backUrl = "{{ '/item?id=' | relative_url }}" + back;
+        var forwardUrl = "{{ '/item?id=' | relative_url }}" + forward;
         /* add side buttons to page */
         document.getElementById("back-button").href = backUrl;
         document.getElementById("next-button").href = forwardUrl;
@@ -490,7 +490,7 @@
     } else {
         /* no item with that ID */
         document.getElementById("bc-title").innerHTML = 'Not found?';
-        document.getElementById("item-title").innerHTML = 'Sorry, item not found. Please visit <a href="{{ "/browse.html" | relative_url }}">Browse page</a> to find an item.';
+        document.getElementById("item-title").innerHTML = 'Sorry, item not found. Please visit <a href="{{ "/browse" | relative_url }}">Browse page</a> to find an item.';
     }
 
     /* all done, so hide loading animation */
