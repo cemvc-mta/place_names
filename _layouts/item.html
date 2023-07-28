@@ -8,7 +8,7 @@ gallery: true
 <div class="container py-3">
     <ul class="breadcrumb h6">
         <li class="breadcrumb-item"><a class="text-dark" href="{{ '/' | relative_url }}">{{ site.title }}</a></li>
-        <li class="breadcrumb-item"><a class="text-dark" href="{{ '/browse.html' | relative_url }}">Browse</a></li>
+        <li class="breadcrumb-item"><a class="text-dark" href="{{ '/browse' | relative_url }}">Browse</a></li>
         <li id="bc-title" class="breadcrumb-item active text-dark" aria-current="page"></li>
     </ul>
     <div class="my-0 h5 small" id="item-format"></div>
@@ -32,7 +32,7 @@ gallery: true
     {%- if site.data.theme.browse-buttons == true -%}
     <div class="text-center">
         <a id="prev-button" class="btn btn-secondary">&laquo; Previous</a>
-        <a class="btn btn-secondary" href="{{ '/browse.html' | relative_url }}">Back to browse</a>
+        <a class="btn btn-secondary" href="{{ '/browse' | relative_url }}">Back to browse</a>
         <a id="for-button" class="btn btn-secondary">Next &raquo;</a>
     </div>
 
@@ -44,7 +44,7 @@ gallery: true
     </div>
     {% else %}
     <div class="text-center">
-        <a class="btn btn-outline-primary" href="{{ '/browse.html' | relative_url }}">&laquo; Back to Collection Browse</a>
+        <a class="btn btn-outline-primary" href="{{ '/browse' | relative_url }}">&laquo; Back to Collection Browse</a>
     </div>
     {% endif %}
 </div>
