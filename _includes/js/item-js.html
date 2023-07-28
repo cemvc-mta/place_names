@@ -41,7 +41,7 @@
             itemFormat = record.format.replace("_", " ").toUpperCase();
         }
         document.getElementById("item-format").innerHTML = itemFormat
-        document.getElementById("item-title").innerHTML = record.format.includes('record') ? objectTitle : objectTitle + '<a href="#item-metadata" class="ms-5 btn btn-sm btn-outline-dark small">Item Info {% include feature/icon icon="arrow-down" label="Down arrow" %}</a>';
+        document.getElementById("item-title").innerHTML = record.format.includes('record') ? objectTitle : objectTitle + '<a href="#item-metadata" class="ms-5 btn btn-sm btn-outline-dark small">Item Info {% include feature/icon.html icon="arrow-down" label="Down arrow" %}</a>';
         /* add object */ 
         var format = "" + record.format;
         var objectLink = record.filename;
