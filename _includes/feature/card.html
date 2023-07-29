@@ -19,13 +19,11 @@
 {%- capture alt -%}{{ include.alt | default: include.title }}{% endcapture %}
 {%- elsif include.objectid -%}
 {%- assign item = site.data[site.metadata] | where: "objectid", include.objectid | first -%}
-{% comment %}
 {%- capture src -%}{% if item.filename contains '/' %}{{ item.filename | relative_url }}{% else %}{{ '/objects/' | append: item.filename | relative_url }}{% endif %}{% endcapture %}
 {%- capture alt -%}{{ item.title | default: include.title }}{% endcapture %}
-{% endcomment %}
 {%- endif -%}
 <div class="card mb-3{% if include.width %} feature-w-{{ include.width }}{% endif %}{% if include.centered %} mx-auto{% endif %}">
-{% comment %}{% if src %}<img class="card-img-top" src="{{ src }}" alt="{{ alt | escape }}">{%- endif -%}{% endcomment %}
+    {% if src %}<img class="card-img-top" src="{{ src }}" alt="{{ alt | escape }}">{%- endif -%}
     {% if include.header %}<h5 class="card-header">{{ include.header }}</h5>{%- endif -%}
     <div class="card-body">
         {% if include.title %}<h5 class="card-title">{{ include.title }}</h5>{%- endif -%}
