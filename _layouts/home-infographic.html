@@ -7,16 +7,18 @@ layout: page
   <div class="col-md-8">
 
     {% include index/description.html %}
-    {% include index/carousel.html title="Sample Items" height="300" %}
+    {% include index/carousel.html title="Featured Places" height="300" %}
 
   </div>
   <div class="col-md-4">
-
+    
+    {% comment %}
     {% include index/time.html %}
 
     {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="primary" %}
+    {% endcomment %}
 
-    {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" %}
+    {% include index/featured-terms.html field="location" title="Provinces/Territories" btn-color="outline-secondary" %}
 
     {% include index/objects.html %}
 

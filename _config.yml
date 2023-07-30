@@ -20,12 +20,12 @@ url: https://placenames.cemvc.ca
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: CEMVC Place Names Collection
+title: CEMVC Place Name Policy Collection
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Understand the history behind place names
+tagline: Understand Geographical Naming Policies 
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "This collection catalogues the history and meaning of place names."
+description: 'This collection catalogues hundreds of geographical locations and the policies they have in place for creating and/or changing place names within their boundaries (roads, parks, landmarks, etc.). The content is based on ongoing research by Dr. Lauren Beck at Mount Allison University (Sackville, NB, Canada) and the <a href="https://www.cemvc.ca">Centre for Early Modern Visual Culture</a>.'
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: Justin Yoston
 
@@ -61,7 +61,7 @@ organization-logo-nav: https://images.squarespace-cdn.com/content/v1/5eff829a520
 # ROBOTS EXCLUDE
 #
 # set noindex to true if you do NOT want Google to index your site
-noindex: true 
+noindex: false 
 
 ##########
 # BUILD SETTINGS 

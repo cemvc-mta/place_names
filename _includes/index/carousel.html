@@ -22,10 +22,14 @@ or outline (e.g. outline-info, outline-success), including colors created in con
 
 {%- assign image-items = site.data[site.metadata ] | where_exp: 'item', 'item.objectid' | where_exp: "item","item.format
 contains 'image'" -%}
+{% comment %} My record items customization {%- endcomment -%}
+{%- assign record-items = site.data[site.metadata ] | where_exp: 'item', 'item.objectid' | where_exp: "item","item.format
+contains 'record'" -%}
 {%- assign youtube-items = site.data[site.metadata ] | where_exp: 'item', 'item.objectid' | where_exp:
 "item","item.youtubeid" -%}
-{%- if youtube-items -%}{%- assign carousel-items = image-items | concat: youtube-items -%}{%- else -%}{%- assign
-carousel-items = image-items -%}{% endif %}
+{%- if youtube-items -%}{%- assign carousel-items = image-items | concat: youtube-items -%}{%- else -%}
+{%- if record-items -%}{%- assign carousel-items = image-items -%}{%- else -%}
+{%- assign carousel-items = image-items -%}{% endif %}{% endif %}
 
 {% if site.data.theme.carousel-child-objects == true %}
 {%- assign carousel-items = carousel-items | where_exp: 'item','item.title != nil' -%}
