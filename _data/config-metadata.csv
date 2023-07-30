@@ -2,8 +2,9 @@ field,display_name,browse_link,external_link
 title,Settlement Name,
 location,Province or Territory,true,
 haspolicy,Place name policy as of 2023,
-description,Settlement's Place Name Policy,
-placenametools,Settlement's Place Name Tools,
+description,Settlement Place Name Policy,
+placenametools,Settlement Place Name Tools,
 contactinfo,Contact Information,
 latitude,Latitude,
 longitude,Longitude
+format,Format

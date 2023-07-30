@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-# gem "github-pages"
+gem "github-pages"
 #
 # Issue: github-pages Gem doesn't work with Ruby 3!
 # This Gemfile should include the line commented out above.
@@ -10,6 +10,6 @@ source "https://rubygems.org"
 # uncomment gem "github-pages" 
 # and delete the lines below.
 
-gem "jekyll"
+#gem "jekyll"
 
-gem "webrick", "~> 1.7"
+#gem "webrick", "~> 1.7"
