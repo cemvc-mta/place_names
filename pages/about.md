@@ -22,17 +22,25 @@ The [Centre for Early Modern Visual Culture](https://www.cemvc.ca) offers resear
 
 ## Credits
 
-<b>Dr. Lauren Beck</b>
+<b>Dr. Lauren Beck</b> 
+<br>
 Director of the CEMVC and head of this project
 <br>
+<br>
 <b>Victoria Macbeath</b>
+<br>
 Research and data collection
+<br>
 <br>
 <b>Amy Black-Walker</b>
+<br>
 Research and data collection
 <br>
+<br>
 <b>Justin Yoston</b>
+<br>
 Developer of the Place Names repository website
+<br>
 <br>
 <br>
 
