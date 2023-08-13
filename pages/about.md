@@ -10,16 +10,31 @@ credits: false
 
 {% include feature/jumbotron.html objectid="https://images.squarespace-cdn.com/content/v1/5eff829a5206ef2e13b2aabb/1597010177796-XJVIUVL8EHMDTDKVJPAH/image-asset.jpeg" %}
 
-{% include feature/nav-menu.html sections="About the Collection;About the CEMVC" %}
+{% include feature/nav-menu.html sections="The Collection;The CEMVC;Credits" %}
 
-## About the Collection
+## The Collection
 
 This site is a catalogue of place names and place name policies. The content is based on ongoing research by Dr. Lauren Beck and the [Centre for Early Modern Visual Culture](https://www.cemvc.ca) at Mount Allison University (Sackville, NB, Canada).
 
-## About the CEMVC
+## The CEMVC
 
 The [Centre for Early Modern Visual Culture](https://www.cemvc.ca) offers research collections focused primarily on illustrations, engravings, and maps published in books between 1400 and 1900. Our researchers examine critical questions about visuality and textuality from this period, questions that continue to impact how we see the world around us today. These inquiries revolve around gender, race, class, and place of origin in the settler-colonial milieu, as well as how images and text become powerfully technologized in the present era. Scholars of the digital humanities, history, art history, and literature will find these collections particularly useful for their research.
+
+## Credits
+
+<b>Dr. Lauren Beck</b>
+Director of the CEMVC and head of this project
+<br>
+<b>Victoria Macbeath</b>
+Research and data collection
+<br>
+<b>Amy Black-Walker</b>
+Research and data collection
+<br>
+<b>Justin Yoston</b>
+Developer of the Place Names repository website
 <br>
 <br>
+
 <!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it. % include cb/about_the_about.md %   -->
 
