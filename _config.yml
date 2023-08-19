@@ -53,7 +53,7 @@ organization-logo-nav: https://images.squarespace-cdn.com/content/v1/5eff829a520
 # leave these blank or comment out to NOT include google code. See docs/google.md
 #
 # Add your google-analytics-id to automatically add the embed code, e.g. "G-123XXXXXX"
-# google-analytics-id:
+google-analytics-id: G-EWRTBT3PT0
 # to populate a Google CSE add the id, e.g. "002151703305773322890:1pu3smhw1t8"
 # google-cse-id: 
 
@@ -61,7 +61,7 @@ organization-logo-nav: https://images.squarespace-cdn.com/content/v1/5eff829a520
 # ROBOTS EXCLUDE
 #
 # set noindex to true if you do NOT want Google to index your site
-noindex: false 
+noindex: false
 
 ##########
 # BUILD SETTINGS 
