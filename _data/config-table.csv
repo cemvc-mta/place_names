@@ -1,5 +1,6 @@
 field,display_name
 title,Settlement Name
 location,Province or Territory
+subject,Keywords
 haspolicy,Place Name Policy
 contactinfo,Contact Information

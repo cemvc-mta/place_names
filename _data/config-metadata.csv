@@ -1,6 +1,7 @@
 field,display_name,browse_link,external_link
 title,Settlement Name,
 location,Province or Territory,true,
+subject,Keywords,true
 haspolicy,Place name policy as of 2023,
 description,Settlement Place Name Policy,
 placenametools,Settlement Place Name Tools,
