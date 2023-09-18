@@ -57,7 +57,7 @@ function lunr_search () {
             '<p class="ms-3">';
               {% else %}
               if(store[ref][{{ d.field | jsonify }}]) {
-                searchitem += store[ref][{{ d.field | jsonify }}] + '<br> '; }
+                searchitem += store[ref][{{ d.display_name | jsonify }}] + ': ' + store[ref][{{ d.field | jsonify }}] + '<br> '; }
               {% endif %}{% endfor %}
               searchitem += '</p></td>' +
       '</tr>';

@@ -1,7 +1,7 @@
-field,index,display
+field,index,display,display_name
 title,true,true
-location,true,true
-haspolicy,true,true
-subject,true,true
+location,true,true,Province/Territory
+haspolicy,true,true,Has Policy
+subject,true,true,Keywords
 contactinfo,true,false
 description,true,false
