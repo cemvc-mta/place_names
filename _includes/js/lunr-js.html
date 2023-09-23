@@ -8,7 +8,8 @@ var idx = lunr(function () {
   /* add index fields from config */
   this.ref('id')
   {% for f in index_fields %}
-  this.field({{ f.field | jsonify }})
+  this.field({{ f.field | jsonify }}),
+  this.field({{ f.display_name | jsonify }}),
   {% endfor %}
 
   //this.pipeline.remove(lunr.trimmer)
@@ -17,6 +18,7 @@ var idx = lunr(function () {
     this.add({
       {% for f in index_fields %}
       {{ f.field | jsonify }}: store[item][{{ f.field | jsonify }}],
+      {{ f.display_name | jsonify }}: store[item][{{ f.display_name | jsonify }}],
       {% endfor %}
       id: item
     })
