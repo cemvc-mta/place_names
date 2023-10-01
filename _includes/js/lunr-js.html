@@ -51,14 +51,13 @@ function lunr_search () {
       '<tr>'+
           '<td class="">' +
             {% assign display = fields | where: 'display','true' %}
-            {%- assign display_name = = site.data.config-search | where_exp: 'field','field.display_name' -%}
             {% for d in display %}
             {% if forloop.first %}
             '<p class="h4"><a href="{{ site.baseurl }}/item?id=' + store[ref].id + '">' + store[ref][{{ fields[0].field | jsonify }}]  + '</a></p>' +
             '<p class="ms-3">';
               {% else %}
               if(store[ref][{{ d.field | jsonify }}]) {
-                searchitem += {{ field.display_name | jsonify }} + ': ' + store[ref][{{ d.field | jsonify }}] + '<br> '; }
+                searchitem += store[ref][{{ d.field | jsonify }}] + '<br> '; }
               {% endif %}
             {% endfor %}
           searchitem += '</p></td>' +

@@ -1,5 +1,5 @@
 field,display_name,search
 location,Province or Territory,true
-subject,Keywords,true
+subject,Subjects,true
 haspolicy,Place Name Policy,true
 contactinfo,Contact Information
