@@ -1,4 +1,5 @@
 field,display_name,btn,hidden,sort_name
 location,,true,,Province/Territory
 haspolicy,Place Name Policy
+policyscore,Policy Score,Policy Score
 subject,Subjects,true,,Subject

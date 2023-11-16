@@ -2,4 +2,5 @@ field,display_name,search
 location,Province or Territory,true
 subject,Subjects,true
 haspolicy,Place Name Policy,true
+policyscore,Policy Score,true
 contactinfo,Contact Information

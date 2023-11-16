@@ -2,6 +2,7 @@ field,index,display
 title,true,true
 location,true,true
 haspolicy,true,true
+policyscore,true,true
 subject,true,true
 contactinfo,true,false
 description,true,false

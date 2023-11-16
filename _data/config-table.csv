@@ -3,4 +3,5 @@ title,Settlement Name
 location,Province or Territory
 subject,Subjects
 haspolicy,Place Name Policy
+policyscore,Policy Score
 contactinfo,Contact Information
