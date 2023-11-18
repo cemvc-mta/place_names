@@ -3,10 +3,10 @@ title,Settlement Name,
 location,Province or Territory,true,
 subject,Subjects,true
 haspolicy,Place name policy as of 2023,
+policyscore,Policy Score,
 description,Settlement Place Name Policy,
 placenametools,Settlement Place Name Tools,
 contactinfo,Contact Information,
 latitude,Latitude,
 longitude,Longitude
-format,Format,
-policyscore,Policy Score
+format,Format
