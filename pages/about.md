@@ -14,7 +14,7 @@ credits: false
 
 ## The Collection
 
-This site is a catalogue of place names and place name policies. The content is based on ongoing research by Dr. Lauren Beck and the [Centre for Early Modern Visual Culture](https://www.cemvc.ca) at Mount Allison University (Sackville, NB, Canada).
+This site is a catalogue of place names and place name policies. The content is based on ongoing research by Dr. Lauren Beck, the [Centre for Early Modern Visual Culture](https://www.cemvc.ca) at Mount Allison University (Sackville, NB), and various contributors from around Canada.
 
 ## The CEMVC
 
@@ -22,24 +22,34 @@ The [Centre for Early Modern Visual Culture](https://www.cemvc.ca) offers resear
 
 ## Credits
 
+<span style="text-decoration:underline">Principal Investigator</span>
+<br>
 <b>Dr. Lauren Beck</b> 
 <br>
-Director of the CEMVC and head of this project
+Director, Centre for Early Modern Visual Culture, Mount Allison University
 <br>
+<br>
+<span style="text-decoration:underline">Co-investigators</span>
 <br>
 <b>Victoria Macbeath</b>
 <br>
-Research and data collection
+Research; data collection and analysis.
+<br>
+PhD Student, Art History, Concordia University
 <br>
 <br>
 <b>Amy Black-Walker</b>
 <br>
-Research and data collection
+Research; data collection and analysis.
+<br>
+MA Student, Indigenous and Inter-Religious Studies, Vancouver School of Theology
 <br>
 <br>
 <b>Justin Yoston</b>
 <br>
-Developer of the Place Names repository website
+Development of Place Name Policy repository; data analysis.
+<br>
+Lab Supervisor, Centre for Early Modern Visual Culture, Mount Allison University
 <br>
 <br>
 <br>
