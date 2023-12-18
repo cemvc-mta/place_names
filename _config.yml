@@ -20,12 +20,12 @@ url: https://placenames.cemvc.ca
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: CEMVC Place Name Policy Collection
+title: 'Place Name Policy of Canada | CEMVC'
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Understand Geographical Naming Policies 
+tagline: Understanding Geographical Naming Policies 
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: 'This collection contains hundreds of place name policies for Canadian incorporated settlements and can be searched by topic (i.e., Indigenous, women, veteran) or geographical location (i.e., Calgary, London, Sackville), or browsed by province, territory, and so on. The database was created for ongoing research by Dr. Lauren Beck at Mount Allison University and the <a href="https://www.cemvc.ca">Centre for Early Modern Visual Culture</a>.'
+description: 'This catalogue contains hundreds of place name policies for Canadian incorporated settlements and can be searched by topic (i.e., Indigenous, women, veteran) or geographical location (i.e., Calgary, London, Sackville), or browsed by province, territory, and so on. The database was created through ongoing research by Dr. Lauren Beck (Mount Allison University), the <a href="https://www.cemvc.ca">Centre for Early Modern Visual Culture</a>, and researchers from around Canada.'
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: Justin Yoston
 
